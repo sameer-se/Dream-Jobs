@@ -4,7 +4,7 @@ import React from "react";
 export default function Home() {
   return (
     <div className="container">
-      <div className="h-[600px] flex flex-col justify-around">
+      <div className="h-[600px] flex flex-col justify-around mt-20">
         <div className="text-9xl text-center">
           Get The <span className="text-primary">Right Job</span> <p />
           You Deserve
@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center rounded-xl">
           <input
-            className="border-gray-200 border-4 rounded-s-2xl p-3 w-[450px] h-18"
+            className="border-gray-200 border-4 rounded-s-2xl p-3 w-[450px] h-18 outline-none"
             type="search"
             name="search"
             id="search"
