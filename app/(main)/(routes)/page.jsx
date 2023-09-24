@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center rounded-xl">
           <input
-            className="border-gray-200 border-4 rounded-s-2xl p-3 w-[450px] h-18 outline-none"
+            className="border-gray-200 border-2 rounded-s-2xl p-3 w-[450px] h-18 outline-none"
             type="search"
             name="search"
             id="search"
